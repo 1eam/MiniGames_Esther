@@ -69,6 +69,15 @@ public class FourInARow {
 	private boolean gameIsWon() {
 		return false;
 	}
+	
+//	private boolean evaluateRow (int row, int column, int set) {
+//		if (set == 4) {
+//			return true;
+//		} else if (row <0 || row >5 || column <0 || column >5) {
+//			return false;
+//		} //else if /(board[row] [column.get( == board [row] [column +1].get())])
+	
+	
 
 	private void gameEnded(Player player) {
 

@@ -3,12 +3,10 @@ package minigames;
 import java.util.Scanner;
 
 public class Main {
-	public static Scanner scanner = new Scanner(System.in);
-
 	public static void main(String[] args) {
 
 		Scanner textInput = new Scanner(System.in);
-		Scanner currentPlayerInput = new Scanner(System.in);
+
 
 		System.out.print("Enter name: Player 1 ");
 		String namePlayer1 = textInput.nextLine();											
@@ -21,13 +19,16 @@ public class Main {
 		//Print van keuzemenu
 		System.out.println("Choose your game");
 		System.out.println("[1] 4 In A Row");
-		System.out.println("[2] Tic Tac Toe");
+		System.out.println("[2] Raad Het getal");
 		System.out.println("[0] Exit"); 
 
 		//Get selected game
 		int selectedGame = textInput.nextInt();
 
 		//TODO: Run chosen game
+//		if (selectedGame == 1) {
+//			FourInARow game = new FourInARow(namePlayer1, namePlayer2);
+//			}
 		
 		//TODO Wingame
 
